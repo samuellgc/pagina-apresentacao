@@ -1,0 +1,54 @@
+body {
+    background-image: url("../image/image-1.jpg") ;
+    color: white;
+}
+
+.container-1 {
+    display: flex;
+}
+
+header {
+    align-items: center;
+    width: 82%;
+    height: 90px;
+    display: flex;
+    justify-content: end;
+}
+
+.corpo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkgray;
+}
+
+.centro {
+    max-width: 600px;
+}
+
+h1, h3, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.3rem;
+}
+
+.icon {
+    text-align: center;
+}
